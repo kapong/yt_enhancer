@@ -18,7 +18,7 @@ YouTube's automatic subtitles (in srv3 format) often contain word-by-word timing
 - **Batch Processing**: Handles large subtitles by processing them in manageable batches
 - **Debug Options**: Includes debug mode for troubleshooting
 - **Two Command Tools**:
-  - `sample`: Download videos and process subtitles in one step
+  - `yt_enhancer`: Download videos and process subtitles in one step
   - `convert_srt`: Process existing srv3 files to SRT format
 
 ## Installation
@@ -34,17 +34,17 @@ YouTube's automatic subtitles (in srv3 format) often contain word-by-word timing
    GEMINI_API_KEY=your_api_key_here
    ```
 3. Build the tools:
-   ```bash
-   go build -o bin/sample ./cmd/sample
-   go build -o bin/convert_srt ./cmd/convert_srt
-   ```
+```bash
+go build -o bin/yt_enhancer ./cmd/yt_enhancer
+go build -o bin/convert_srt ./cmd/convert_srt
+```
 
 ## Usage
 
 ### Download and Process in One Step
 
 ```bash
-./bin/sample "https://www.youtube.com/watch?v=VIDEO_ID" [custom_filename]
+./bin/yt_enhancer "https://www.youtube.com/watch?v=VIDEO_ID" [custom_filename]
 ```
 
 This will:
@@ -76,7 +76,7 @@ Options:
 ## Project Structure
 
 - **cmd/**: Command-line tools
-  - **sample/**: Video download and subtitle processor
+  - **yt_enhancer/**: Video download and subtitle processor
   - **convert_srt/**: Standalone srv3 to SRT converter
 - **pkg/**: Core functionality
   - **config/**: Configuration handling
@@ -92,3 +92,7 @@ The tool converts raw word timings from YouTube into readable subtitles with nat
 ## License
 
 This project is licensed under the MIT License.
+
+## Acknowledgments
+
+This project was developed with assistance from GitHub Copilot and other AI tools. The code, documentation, and project structure were created using AI-powered pair programming techniques.
