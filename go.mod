@@ -1,4 +1,4 @@
-module yt-autosub-replace
+module yt_enhancer
 
 go 1.24.0
 

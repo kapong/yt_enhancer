@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"yt-autosub-replace/pkg/config"
-	"yt-autosub-replace/pkg/models"
+	"yt_enhancer/pkg/config"
+	"yt_enhancer/pkg/models"
 )
 
 // Client is a client for the Gemini API

@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"yt-autosub-replace/pkg/config"
-	"yt-autosub-replace/pkg/gemini"
-	"yt-autosub-replace/pkg/parser"
-	"yt-autosub-replace/pkg/subtitle"
+	"yt_enhancer/pkg/config"
+	"yt_enhancer/pkg/gemini"
+	"yt_enhancer/pkg/parser"
+	"yt_enhancer/pkg/subtitle"
 )
 
 func main() {

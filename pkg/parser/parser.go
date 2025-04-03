@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"yt-autosub-replace/pkg/models"
+	"yt_enhancer/pkg/models"
 )
 
 // ParseXMLFile reads and parses an XML file containing timed text

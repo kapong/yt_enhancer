@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"yt-autosub-replace/pkg/models"
+	"yt_enhancer/pkg/models"
 )
 
 // WriteSRT writes subtitles to an SRT file
